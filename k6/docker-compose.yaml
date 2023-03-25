@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus:/prometheus
+
+  go-node-service:
+    image: docker/go
+    ports:
+      - 8080:8080

@@ -1,0 +1,86 @@
+I, [2023-03-24T13:37:26.835300 #44750]  INFO -- : Registered expected interaction GET /node/1
+D, [2023-03-24T13:37:26.835680 #44750] DEBUG -- : {
+  "description": "A request to get /node/1",
+  "providerState": "Node with id 1 exists",
+  "request": {
+    "method": "GET",
+    "path": "/node/1",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "id": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 1
+      },
+      "latitude": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 1
+      },
+      "location": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "string"
+      },
+      "longitude": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 1
+      },
+      "name": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "string"
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2023-03-24T13:37:26.838689 #44750]  INFO -- : Received request GET /node/1
+D, [2023-03-24T13:37:26.838949 #44750] DEBUG -- : {
+  "path": "/node/1",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "localhost:42985",
+    "User-Agent": "Admin Service",
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2023-03-24T13:37:26.839303 #44750]  INFO -- : Found matching response for GET /node/1
+D, [2023-03-24T13:37:26.839481 #44750] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 1
+    },
+    "latitude": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 1
+    },
+    "location": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "string"
+    },
+    "longitude": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 1
+    },
+    "name": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "string"
+    }
+  }
+}
+I, [2023-03-24T13:37:26.887828 #44750]  INFO -- : Verifying - interactions matched
+I, [2023-03-24T13:37:26.933774 #44750]  INFO -- : Cleared interactions

@@ -1,0 +1,70 @@
+{
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "http"
+  ],
+  "swagger": "2.0",
+  "info": {
+    "description": "Documentation of the Network Configuration API.\n\n## Welcome to the Network Configuration API\nThis is a simple API that enables nodes to be stored, retrieved and updated",
+    "title": "Configuration API",
+    "termsOfService": "Contact:\nLicense:",
+    "version": "1.0.0"
+  },
+  "host": "localhost:8080",
+  "basePath": "/",
+  "paths": {
+    "/getAllNodes": {
+      "get": {
+        "description": "This returns all nodes stored",
+        "produces": [
+          "application/json"
+        ],
+        "operationId": "allNodes",
+        "responses": {
+          "200": {
+            "description": "Node",
+            "schema": {
+              "$ref": "#/definitions/Node"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Node": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64",
+          "x-go-name": "Id"
+        },
+        "latitude": {
+          "type": "integer",
+          "format": "int64",
+          "x-go-name": "Latitude"
+        },
+        "location": {
+          "type": "string",
+          "x-go-name": "Location"
+        },
+        "longitude": {
+          "type": "integer",
+          "format": "int64",
+          "x-go-name": "Longitude"
+        },
+        "name": {
+          "type": "string",
+          "x-go-name": "Name"
+        }
+      },
+      "x-go-package": "anchor_exercise/rest_api"
+    }
+  }
+}

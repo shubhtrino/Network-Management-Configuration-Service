@@ -1,0 +1,100 @@
+# Logfile created on 2022-03-12 17:23:45 +0000 by logger.rb/47272
+I, [2022-03-12T17:28:21.007877 #489977]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given User foo exists A request to get foo with GET /message returns a response which has status code 200'
+I, [2022-03-12T17:28:21.180091 #489977]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given User foo exists A request to get foo with GET /message returns a response which has a matching body'
+I, [2022-03-12T17:40:43.853175 #498989]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given User foo exists A request to get foo with GET /message returns a response which has status code 200'
+I, [2022-03-12T17:40:44.064126 #498989]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given User foo exists A request to get foo with GET /message returns a response which has a matching body'
+I, [2022-03-13T12:40:57.346568 #609035]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T12:40:57.347650 #609035]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T12:40:57.348120 #609035] DEBUG -- : body :
+I, [2022-03-13T12:40:57.384967 #609035]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 12:40:57 GMT"}, see debug logs for body
+D, [2022-03-13T12:40:57.385063 #609035] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T12:41:23.240963 #609881]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T12:41:23.241638 #609881]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T12:41:23.241809 #609881] DEBUG -- : body :
+I, [2022-03-13T12:41:23.271229 #609881]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"7", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 12:41:23 GMT"}, see debug logs for body
+D, [2022-03-13T12:41:23.271665 #609881] DEBUG -- : body: "{X:2"
+
+I, [2022-03-13T13:25:09.761782 #623261]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T13:25:09.762873 #623261]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T13:25:09.768873 #623261] DEBUG -- : body :
+I, [2022-03-13T13:25:09.814135 #623261]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 13:25:09 GMT"}, see debug logs for body
+D, [2022-03-13T13:25:09.814310 #623261] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T13:25:32.695769 #623877]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T13:25:32.702990 #623877]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T13:25:32.703379 #623877] DEBUG -- : body :
+I, [2022-03-13T13:25:32.734228 #623877]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 13:25:32 GMT"}, see debug logs for body
+D, [2022-03-13T13:25:32.734524 #623877] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T18:18:02.264772 #638144]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T18:18:02.265385 #638144]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T18:18:02.265564 #638144] DEBUG -- : body :
+I, [2022-03-13T18:18:02.287440 #638144]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 18:18:02 GMT"}, see debug logs for body
+D, [2022-03-13T18:18:02.287631 #638144] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T18:30:49.902841 #639610]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T18:30:49.903398 #639610]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T18:30:49.903445 #639610] DEBUG -- : body :
+I, [2022-03-13T18:30:49.924588 #639610]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 18:30:49 GMT"}, see debug logs for body
+D, [2022-03-13T18:30:49.924738 #639610] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T18:36:41.330952 #641141]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T18:36:41.331442 #641141]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T18:36:41.331618 #641141] DEBUG -- : body :
+I, [2022-03-13T18:36:41.359697 #641141]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 18:36:41 GMT"}, see debug logs for body
+D, [2022-03-13T18:36:41.359868 #641141] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2022-03-13T18:41:43.970901 #644223]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Message with id 1 exists A request to get /message/1 with GET /message/1 returns a response which has status code 200'
+I, [2022-03-13T18:41:43.971420 #644223]  INFO -- : Sending GET request to path: "/message/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2022-03-13T18:41:43.971532 #644223] DEBUG -- : body :
+I, [2022-03-13T18:41:43.992269 #644223]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"33", "Content-Type"=>"application/json", "Date"=>"Sun, 13 Mar 2022 18:41:43 GMT"}, see debug logs for body
+D, [2022-03-13T18:41:43.992477 #644223] DEBUG -- : body: {"id":1,"message":"Hello World"}
+
+I, [2023-03-24T13:26:40.815085 #38526]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Message with id 1 exists A request to get /message/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:26:40.815570 #38526]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:26:40.815654 #38526] DEBUG -- : body :
+I, [2023-03-24T13:26:40.835567 #38526]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Fri, 24 Mar 2023 13:26:40 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2023-03-24T13:26:40.835799 #38526] DEBUG -- : body: 404 page not found
+
+I, [2023-03-24T13:32:39.213219 #42808]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Message with id 1 exists A request to get /message/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:32:39.215024 #42808]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:32:39.215304 #42808] DEBUG -- : body :
+I, [2023-03-24T13:32:39.237371 #42808]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"151", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:32:39 GMT"}, see debug logs for body
+D, [2023-03-24T13:32:39.237542 #42808] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+{"id":1,"name":"Node 2","location":"Cork","latitude":345,"longitude":675}
+
+I, [2023-03-24T13:34:07.422519 #43413]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Message with id 1 exists A request to get /message/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:34:07.422889 #43413]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Message with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:34:07.422929 #43413] DEBUG -- : body :
+I, [2023-03-24T13:34:07.445243 #43413]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"151", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:34:07 GMT"}, see debug logs for body
+D, [2023-03-24T13:34:07.445522 #43413] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+{"id":1,"name":"Node 2","location":"Cork","latitude":345,"longitude":675}
+
+I, [2023-03-24T13:36:13.018441 #44176]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Node with id 1 exists A request to get /message/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:36:13.019105 #44176]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Node with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:36:13.019220 #44176] DEBUG -- : body :
+I, [2023-03-24T13:36:13.034636 #44176]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"151", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:36:13 GMT"}, see debug logs for body
+D, [2023-03-24T13:36:13.035196 #44176] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+{"id":1,"name":"Node 2","location":"Cork","latitude":345,"longitude":675}
+
+I, [2023-03-24T13:36:39.264011 #44519]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Node with id 1 exists A request to get /message/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:36:39.264557 #44519]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Node with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:36:39.264616 #44519] DEBUG -- : body :
+I, [2023-03-24T13:36:39.296589 #44519]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"151", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:36:39 GMT"}, see debug logs for body
+D, [2023-03-24T13:36:39.296785 #44519] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+{"id":1,"name":"Node 2","location":"Cork","latitude":345,"longitude":675}
+
+I, [2023-03-24T13:37:43.389801 #45086]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Node with id 1 exists A request to get /node/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:37:43.390141 #45086]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Node with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:37:43.390587 #45086] DEBUG -- : body :
+I, [2023-03-24T13:37:43.409932 #45086]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"151", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:37:43 GMT"}, see debug logs for body
+D, [2023-03-24T13:37:43.410678 #45086] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+{"id":1,"name":"Node 2","location":"Cork","latitude":345,"longitude":675}
+
+I, [2023-03-24T13:44:46.095804 #45988]  INFO -- : Running example 'Verifying a pact between Consumer and Producer Given Node with id 1 exists A request to get /node/1 with GET /node/1 returns a response which has status code 200'
+I, [2023-03-24T13:44:46.096521 #45988]  INFO -- : Sending GET request to path: "/node/1" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"Node with id 1 exists"}]}, see debug logs for body
+D, [2023-03-24T13:44:46.096624 #45988] DEBUG -- : body :
+I, [2023-03-24T13:44:46.118502 #45988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"77", "Content-Type"=>"application/json", "Date"=>"Fri, 24 Mar 2023 13:44:46 GMT"}, see debug logs for body
+D, [2023-03-24T13:44:46.118629 #45988] DEBUG -- : body: {"id":1,"name":"Node 1","location":"Athlone","latitude":123,"longitude":321}
+

@@ -1,0 +1,56 @@
+{
+  "consumer": {
+    "name": "Consumer"
+  },
+  "provider": {
+    "name": "Producer"
+  },
+  "interactions": [
+    {
+      "description": "A request to get /node/1",
+      "providerState": "Node with id 1 exists",
+      "request": {
+        "method": "GET",
+        "path": "/node/1",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "id": 1,
+          "latitude": 1,
+          "location": "string",
+          "longitude": 1,
+          "name": "string"
+        },
+        "matchingRules": {
+          "$.body.id": {
+            "match": "type"
+          },
+          "$.body.latitude": {
+            "match": "type"
+          },
+          "$.body.location": {
+            "match": "type"
+          },
+          "$.body.longitude": {
+            "match": "type"
+          },
+          "$.body.name": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
